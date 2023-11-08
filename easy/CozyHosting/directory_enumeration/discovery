@@ -1,0 +1,19 @@
+Target: http://cozyhosting.htb/FUZZ
+Total requests: 112
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00029:  C=200      0 L	       1 W	    634 Ch	  "actuator"
+00072:  C=200      0 L	       1 W	    145 Ch	  "actuator/sessions"
+00041:  C=200      0 L	      13 W	    487 Ch	  "actuator/env/lang"
+00038:  C=200      0 L	     120 W	   4957 Ch	  "actuator/env"
+00058:  C=200      0 L	     108 W	   9938 Ch	  "actuator/mappings"
+00044:  C=200      0 L	      13 W	    487 Ch	  "actuator/env/path"
+00039:  C=200      0 L	      13 W	    487 Ch	  "actuator/env/home"
+00051:  C=200      0 L	       1 W	     15 Ch	  "actuator/health"
+00032:  C=200      0 L	     542 W	  127224 Ch	  "actuator/beans"
+
+Total time: 0
+Processed Requests: 103
+Filtered Requests: 94
+Requests/sec.: 0
